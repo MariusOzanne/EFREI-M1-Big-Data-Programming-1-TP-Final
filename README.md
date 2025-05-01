@@ -1,7 +1,7 @@
 # EFREI-M1-Big-Data-Programming-1-TP-Final
 Projet Big Data programming effectué à l'efrei en M1.
 
-## sujet: 
+## Sujet: 
 Vous êtes dans la peau d'un architecture data, l'équipe métier vous soumet une problématique métier (celle que vous aurez trouvé). 
 Vous devez proposez une architecture permettant le traitement des données massives en s'appuyant sur une architecture en 3 couches: Datalake (bronze), Datawarehouse (silver), Datamart  (gold).  L'équipe métier veut exploiter votre objet business final à travers une API donc il faut une BDD en gold. 
 
@@ -17,7 +17,7 @@ Comment proposer des recommandations musicales personnalisées aux utilisateurs 
 ## Explication du projet
 
 Ce projet vise à concevoir une architecture Big Data permettant de traiter et d’analyser des logs d’écoute musicale simulés (stream de logs), afin de construire un système de recommandation musicale personnalisé.  
-Les données sources sont issues d’un simulateur de stream d’écoute, inspiré du dataset Spotify (voir [exemple Kaggle](https://www.kaggle.com/code/vatsalmavani/music-recommendation-system-using-spotify-dataset)).  
+Les données sources sont issues d’un simulateur de stream d’écoute et du dataset Spotify (voir [exemple Kaggle](https://www.kaggle.com/code/vatsalmavani/music-recommendation-system-using-spotify-dataset)).  
 L’architecture suit le modèle 3 couches :
 
 - **Bronze (Datalake)** : stockage brut des logs d’écoute simulés et des métadonnées des morceaux.
