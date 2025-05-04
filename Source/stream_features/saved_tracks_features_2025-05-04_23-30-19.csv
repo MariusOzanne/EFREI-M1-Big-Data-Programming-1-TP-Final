@@ -1,0 +1,18 @@
+Title,Artist,Album,id,valence,year,acousticness,artists,danceability,duration_ms,energy,explicit,instrumentalness,key,liveness,loudness,mode,name,popularity,release_date,speechiness,tempo
+My Love (feat. Jess Glynne),Route 94,My Love (feat. Jess Glynne),61UQzeiIluhpzpMdY4ag3q,0.726,2014,0.000132,"['Route 94', 'Jess Glynne']",0.8140000000000001,259934,0.622,0,0.72,8,0.0658,-7.572999999999999,1,My Love (feat. Jess Glynne),71,2014-02-28,0.0492,119.976
+Paradise (feat. Dermot Kennedy),MEDUZA,Paradise,6ft4hAq6yde8jPZY2i5zLr,0.435,2020,0.0689,"['MEDUZA', 'Dermot Kennedy']",0.632,167903,0.595,0,0.0,8,0.209,-7.644,0,Paradise (feat. Dermot Kennedy),86,2020-10-30,0.0401,124.114
+Just Lose It,Eminem,Encore (Deluxe Version),0qcjuYtMWhBjXg0Xwt5SzS,0.962,2004,0.0581,['Eminem'],0.94,248680,0.633,1,4.04e-05,8,0.281,-3.56,1,Just Lose It,66,2004-11-12,0.0467,121.003
+Cinderella Man,Eminem,Recovery,4SE4yewyGpOYfxfx59Yjc5,0.687,2010,0.234,['Eminem'],0.679,279013,0.908,1,0.0,8,0.0821,-3.411,1,Cinderella Man,70,2010-06-18,0.202,85.91799999999998
+Like Toy Soldiers,Eminem,Encore (Deluxe Version),6CN3e26iQSj1N5lomh0mfO,0.398,2004,0.0193,['Eminem'],0.52,296880,0.768,1,0.00034,8,0.104,-3.489,0,Like Toy Soldiers,69,2004-11-12,0.359,79.178
+My Name Is,Eminem,The Slim Shady LP,75IN3CtuZwTHTnZvYM4qnJ,0.815,1999,0.0416,['Eminem'],0.8690000000000001,268400,0.68,1,1.12e-06,1,0.0914,-6.233,1,My Name Is,71,1999-02-23,0.318,85.51899999999998
+Cleanin' Out My Closet,Eminem,The Eminem Show,7BMO7O7ImjV8HNTH74Tshv,0.87,2002,0.0687,['Eminem'],0.908,297840,0.758,1,0.0,9,0.0783,-4.753,0,Cleanin' Out My Closet,71,2002-05-26,0.174,148.015
+The Way I Am,Eminem,The Marshall Mathers LP,23wfXwnsPZYe5A1xXRHb3J,0.315,2000,0.144,['Eminem'],0.785,290427,0.871,1,0.0,4,0.309,-2.692,0,The Way I Am,71,2000-05-23,0.265,87.24799999999998
+The Real Slim Shady,Eminem,The Marshall Mathers LP,3yfqSUWxFvZELEM4PmlwIR,0.76,2000,0.0302,['Eminem'],0.949,284200,0.6609999999999999,1,0.0,5,0.0454,-4.244,0,The Real Slim Shady,80,2000-05-23,0.0572,104.504
+Venom - Music From The Motion Picture,Eminem,Kamikaze,2SL6oP2YAEQbqsrkOzRGO4,0.46,2018,0.0193,['Eminem'],0.7490000000000001,269554,0.794,1,0.0,0,0.5429999999999999,-5.063,1,Venom - Music From The Motion Picture,74,2018-08-31,0.064,135.959
+Kamikaze,Eminem,Kamikaze,2gsNpSn7VvvJuSrIDfRoYy,0.642,2018,0.112,['Eminem'],0.78,216029,0.8079999999999999,1,0.0,2,0.329,-5.175,1,Kamikaze,69,2018-08-31,0.484,79.982
+Not Alike (feat. Royce Da 5'9),Eminem,Kamikaze,28FGV3ORH14MYORd7s5dlU,0.342,2018,0.0692,"['Eminem', 'Royce Da 5\'9""']",0.904,288087,0.7559999999999999,1,0.0,10,0.339,-3.746,1,Not Alike (feat. Royce Da 5'9),69,2018-08-31,0.32,140.005
+Stepping Stone,Eminem,Kamikaze,60Z57Wdrn0pEVpHI7d7GAX,0.312,2018,0.0305,['Eminem'],0.616,309638,0.684,1,0.0,7,0.376,-6.032,1,Stepping Stone,64,2018-08-31,0.311,179.503
+Godzilla (feat. Juice WRLD),Eminem,Music To Be Murdered By,7FIWs0pqAYbP91WWM0vlTQ,0.8290000000000001,2020,0.145,"['Eminem', 'Juice WRLD']",0.8079999999999999,210800,0.745,1,0.0,10,0.292,-5.26,0,Godzilla (feat. Juice WRLD),86,2020-01-17,0.342,165.995
+Dead Eyes,Promoting Sounds,Dead Eyes,7BdlyzVvOqmwPH9dYtZfsx,0.288,2019,0.127,"['Promoting Sounds', 'Powfu', 'Ouse']",0.7190000000000001,219429,0.6509999999999999,1,0.0,7,0.0763,-5.877999999999999,1,Dead Eyes,72,2019-11-08,0.0274,104.956
+The Business,Tiësto,The Business,6f3Slt0GbA2bPZlz0aIFXN,0.235,2020,0.414,['Tiësto'],0.7979999999999999,164000,0.62,0,0.0192,8,0.112,-7.079,0,The Business,87,2020-09-16,0.232,120.031
+Goosebumps,HVME,Goosebumps,20McUFi8KCIVdNDLrkTDuZ,0.439,2020,0.325,['HVME'],0.767,163208,0.659,1,0.0,1,0.13,-7.4289999999999985,1,Goosebumps,85,2020-06-12,0.0444,124.946
