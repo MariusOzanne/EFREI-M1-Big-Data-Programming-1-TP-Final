@@ -1,3 +1,9 @@
+# Ce script surveille en temps réel le dossier Source/stream pour détecter l'arrivée de nouveaux fichiers CSV de logs d'écoute.
+# Lorsqu'un nouveau fichier est détecté, il le lit, puis effectue une jointure (merge) avec le fichier Source/data.csv
+# contenant les features des morceaux (sur la colonne 'id'). Le résultat enrichi est sauvegardé dans Source/stream_features
+# avec un nom de fichier horodaté. Ce script permet ainsi de croiser automatiquement les logs d'écoute avec les caractéristiques
+# des morceaux dès qu'un nouveau log est disponible, pour préparer les données à la couche Silver (Datawarehouse).
+
 import time
 import os
 from datetime import datetime
