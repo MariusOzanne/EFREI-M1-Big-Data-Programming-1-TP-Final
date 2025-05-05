@@ -9,7 +9,7 @@ spark = SparkSession.builder \
 
 df = spark.read.csv("Source\data.csv", header=True, inferSchema=True)
 
-df.write.parquet("data/csv", mode="overwrite")
+df.write.parquet("Bronze/data/csv", mode="overwrite")
 
 json_schema = StructType([
     StructField("transaction_id", StringType()),
@@ -65,7 +65,7 @@ parsed_df = json_df.select(from_json(col("json_str"), json_schema).alias("data")
 query = parsed_df.writeStream \
     .outputMode("append") \
     .format("parquet") \
-    .option("path", "data/stream") \
+    .option("path", "Bronze/data/stream") \
     .option("checkpointLocation", "checkpoint") \
     .start()
 

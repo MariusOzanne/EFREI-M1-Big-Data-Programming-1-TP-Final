@@ -177,3 +177,9 @@ cython_debug/
 metastore_db/
 derby.log
 spark-warehouse/
+
+.parquet
+.crc
+
+Bronze/data/
+Silver/data/
