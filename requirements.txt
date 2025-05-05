@@ -3,3 +3,10 @@ jupyterlab
 pandas
 pyyaml
 delta-spark
+watchdog
+sqlmodel
+scikit-learn
+spotipy
+mysql-connector-python
+matplotlib
+seaborn
