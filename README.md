@@ -5,13 +5,13 @@
 
 ---
 
-![Hive](https://img.shields.io/badge/Datawarehouse-Hive-yellow?logo=apache-hive)
-![Spark](https://img.shields.io/badge/Processing-Spark-orange?logo=apache-spark)
-![Python](https://img.shields.io/badge/Language-Python-blue?logo=python)
-![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-red?logo=jupyter)
-![API](https://img.shields.io/badge/API-Spotify_API-green?logo=spotify)
-![MySQL](https://img.shields.io/badge/Database-MySQL-black?logo=mysql)
-![ML](https://img.shields.io/badge/Machine%20Learning-Enabled-purple?logo=scikit-learn)
+![Hive](https://img.shields.io/badge/🐝_Hive-yellow?logo=apache-hive&style=for-the-badge)
+![Spark](https://img.shields.io/badge/⚡_Spark-orange?logo=apache-spark&style=for-the-badge)
+![Python](https://img.shields.io/badge/🐍_Python-3776AB?logo=python&logoColor=white&style=for-the-badge)
+![Jupyter](https://img.shields.io/badge/📓_Jupyter-f37626?logo=jupyter&logoColor=white&style=for-the-badge)
+![API](https://img.shields.io/badge/API-Spotify-1DB954?logo=spotify&logoColor=white&style=for-the-badge)
+![MySQL](https://img.shields.io/badge/Database-MySQL-4479A1?logo=mysql&logoColor=white&style=for-the-badge)
+![ML](https://img.shields.io/badge/🤖_ML-Enabled-8e44ad?logo=scikit-learn&logoColor=white&style=for-the-badge)
 
 ---
 
