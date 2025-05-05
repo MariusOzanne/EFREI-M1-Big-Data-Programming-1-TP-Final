@@ -172,3 +172,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Hive et derby
+metastore_db/
+derby.log
+spark-warehouse/
