@@ -1,7 +1,7 @@
 from typing import List
 from sqlmodel import Session, select
-from song_model import Song
-from db import engine
+from .song_model import Song
+from .db import engine
 
 def dao_get_all_songs() -> List[Song]:
     with Session(engine) as session:
