@@ -3,17 +3,31 @@
 > **Projet Big Data Programming – EFREI M1**  
 > **Participants** : Marius OZANNE, Chléo HINN, Bryan BONTRAIN
 
----
+<p align="center">
+  <a href="https://hive.apache.org/">
+    <img src="https://img.shields.io/badge/Datawarehouse-Hive-yellow?logo=apache-hive&style=for-the-badge" alt="Hive"/>
+  </a>
+  <a href="https://spark.apache.org/">
+    <img src="https://img.shields.io/badge/Processing-Spark-orange?logo=apache-spark&style=for-the-badge" alt="Spark"/>
+  </a>
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Language-Python-blue?logo=python&style=for-the-badge" alt="Python"/>
+  </a>
+  <a href="https://jupyter.org/">
+    <img src="https://img.shields.io/badge/Notebook-Jupyter-f37626?logo=jupyter&logoColor=white&style=for-the-badge" alt="Jupyter"/>
+  </a>
+  <a href="https://developer.spotify.com/documentation/web-api">
+    <img src="https://img.shields.io/badge/API-Spotify_API-1DB954?logo=spotify&logoColor=white&style=for-the-badge" alt="Spotify API"/>
+  </a>
+  <a href="https://www.mysql.com/">
+    <img src="https://img.shields.io/badge/Database-MySQL-4479A1?logo=mysql&logoColor=white&style=for-the-badge" alt="MySQL"/>
+  </a>
+  <a href="https://scikit-learn.org/">
+    <img src="https://img.shields.io/badge/Machine%20Learning-Enabled-8e44ad?logo=scikit-learn&logoColor=white&style=for-the-badge" alt="ML"/>
+  </a>
+</p>
 
-![Hive](https://img.shields.io/badge/🐝_Hive-yellow?logo=apache-hive&style=for-the-badge)
-![Spark](https://img.shields.io/badge/⚡_Spark-orange?logo=apache-spark&style=for-the-badge)
-![Python](https://img.shields.io/badge/🐍_Python-3776AB?logo=python&logoColor=white&style=for-the-badge)
-![Jupyter](https://img.shields.io/badge/📓_Jupyter-f37626?logo=jupyter&logoColor=white&style=for-the-badge)
-![API](https://img.shields.io/badge/API-Spotify-1DB954?logo=spotify&logoColor=white&style=for-the-badge)
-![MySQL](https://img.shields.io/badge/Database-MySQL-4479A1?logo=mysql&logoColor=white&style=for-the-badge)
-![ML](https://img.shields.io/badge/🤖_ML-Enabled-8e44ad?logo=scikit-learn&logoColor=white&style=for-the-badge)
-
----
+--------
 
 ## 📋 Énoncé du projet
 
@@ -28,7 +42,6 @@
 **Problématique choisie** :  
 > _Comment proposer des recommandations musicales personnalisées aux utilisateurs en temps réel, à partir de leurs historiques d’écoute et des caractéristiques des morceaux, en s’appuyant sur une architecture Big Data scalable ?_
 
----
 
 ## 🗂️ Sommaire
 
@@ -43,14 +56,12 @@
 - [🗺️ Schéma d’architecture](#-schéma-darchitecture)
 - [📎 Annexes](#-annexes)
 
----
 
 ## 🎯 Contexte et Objectifs
 
 Ce projet vise à concevoir une architecture Big Data pour traiter et analyser des logs d’écoute musicale, afin de construire un système de recommandation musicale personnalisé.  
 Le résultat est exposé via une API et peut être utilisé pour de la visualisation ou des analyses avancées (machine learning).
 
----
 
 ## 🏗️ Architecture Globale
 
@@ -60,7 +71,6 @@ L’architecture suit le modèle **3 couches** :
 - 🥈 **Silver (Datawarehouse/Hive)** : nettoyage, enrichissement et structuration des données via Spark et Hive.
 - 🥇 **Gold (Datamart)** : génération des recommandations personnalisées, exposition via une API, et préparation pour la visualisation ou l’analyse avancée.
 
----
 
 ## 🎶 Sources de Données
 
@@ -68,7 +78,6 @@ L’architecture suit le modèle **3 couches** :
 - **Dataset Spotify** : caractéristiques audio des morceaux ([Kaggle Spotify Dataset](https://www.kaggle.com/code/vatsalmavani/music-recommendation-system-using-spotify-dataset)).
 - **(Optionnel)** : Simulateur de logs d’écoute (script Python) pour générer des données de test si besoin.
 
----
 
 ## ⚙️ Pipeline de Traitement
 
@@ -86,28 +95,24 @@ L’architecture suit le modèle **3 couches** :
    - Stockage dans une base de données relationnelle.
 
 
----
 
 ## 🤖 Machine Learning
 
 - Application d’un algorithme de machine learning (ex : clustering KMeans ou prédiction de préférences).
 - Objectif : améliorer la pertinence des recommandations.
 
----
 
 ## 🛠️ API et Datamart
 
 - API REST (FastAPI/Flask) permettant d’obtenir les recommandations pour un utilisateur.
 - Base de données relationnelle pour stocker les recommandations finales.
 
----
 
 ## 📊 Visualisation et Dashboards
 
 - Création de dashboards à partir des datamarts (ex : notebook Jupyter, outil BI).
 - Visualisation des recommandations et analyses utilisateurs.
 
----
 
 ## 🚀 Prise en main
 
@@ -145,22 +150,19 @@ python Source/simulation/spotify_api_simulation.py
 python main.py
 ```
 
----
-
 ## 🗺️ Schéma d’architecture
 
 <p align="center">
   <img src="docs/schema_architecture.png" alt="Schéma d’architecture Big Data" width="700"/>
 </p>
 
----
 
 ## 📎 Annexes
 
 - **Captures Spark UI et base de données** : voir `docs/screenshots/`
 - **Vidéo de démonstration** : voir `docs/demo_video.mp4`
 
----
+-----
 
 <p align="center">
   <b>EFREI M1 – Big Data Frameworks 1</b><br>
