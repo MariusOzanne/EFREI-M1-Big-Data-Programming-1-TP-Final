@@ -8,8 +8,8 @@ from typing import List
 from datetime import datetime
 
 # Spotify API credentials
-client_id = "dde733b94d0a407a9b697b92ba4e972b"
-client_secret = "52be2c5824d749d4b3db1ec698e608e9"
+client_id = os.environ.get("CLIENT_ID")
+client_secret = os.environ.get("CLIENT_SECRET")
 redirect_uri = "http://127.0.0.1:8888/callback"
 scope = "user-library-read"
 
