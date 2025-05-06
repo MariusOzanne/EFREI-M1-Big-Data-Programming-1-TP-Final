@@ -1,0 +1,5 @@
+v1
+{"path":"file:///C:/Users/ozann/OneDrive/Documents/Efrei_Travaux/Big%20Data/Big%20Data%202/TP_Final/EFREI-M1-Big-Data-Programming-1-TP-Final/Bronze/data/stream/part-00000-5dc09047-269a-4101-a635-8d02d89af581-c000.snappy.parquet","timestamp":1746478412224,"batchId":0}
+{"path":"file:///C:/Users/ozann/OneDrive/Documents/Efrei_Travaux/Big%20Data/Big%20Data%202/TP_Final/EFREI-M1-Big-Data-Programming-1-TP-Final/Bronze/data/stream/part-00002-8d90a063-ecd7-4569-a4eb-c191affe5947-c000.snappy.parquet","timestamp":1746478412252,"batchId":0}
+{"path":"file:///C:/Users/ozann/OneDrive/Documents/Efrei_Travaux/Big%20Data/Big%20Data%202/TP_Final/EFREI-M1-Big-Data-Programming-1-TP-Final/Bronze/data/stream/part-00001-3cb7e499-490f-48a4-9fe0-2c1185d1370b-c000.snappy.parquet","timestamp":1746478412254,"batchId":0}
+{"path":"file:///C:/Users/ozann/OneDrive/Documents/Efrei_Travaux/Big%20Data/Big%20Data%202/TP_Final/EFREI-M1-Big-Data-Programming-1-TP-Final/Bronze/data/stream/part-00000-7f585983-fcd6-4d30-9832-bf1249245727-c000.snappy.parquet","timestamp":1746521508698,"batchId":0}
