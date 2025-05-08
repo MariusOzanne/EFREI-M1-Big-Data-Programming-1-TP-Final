@@ -61,24 +61,18 @@ schema = StructType([
 # Data from a streamed directory has to be retrieved both as a batch and as a stream to get the new data streamed.
 # Just reading the stream won't allow you to have access to the previously written files in the directory
 
-saved_tracks_df = spark.read.parquet("Bronze/data/stream")
-
-cleaned_saved_tracks_df = saved_tracks_df.drop("album")\
-    .dropna()\
-    .dropDuplicates()
-
-cleaned_saved_tracks_df.write \
-    .mode("overwrite")\
-    .parquet(STREAM_OUTPUT_DIR)
-
-
+valid_files = [
+    os.path.join("Bronze\data\stream", f)
+    for f in os.listdir("Bronze\data\stream")
+    if f.endswith(".parquet")
+]
 
 stream_saved_tracks_df = spark.readStream\
     .format("parquet") \
-    .schema(saved_tracks_df.schema) \
+    .schema(schema) \
     .load("Bronze/data/stream")
 
-cleaned_stream_saved_tracks_df = stream_saved_tracks_df.drop("artist")
+cleaned_stream_saved_tracks_df = stream_saved_tracks_df.drop("album")
 
 output = cleaned_stream_saved_tracks_df.writeStream\
     .format("parquet")\
@@ -87,5 +81,4 @@ output = cleaned_stream_saved_tracks_df.writeStream\
     .outputMode("append")\
     .start()
 
-cleaned_saved_tracks_df.show()
 output.awaitTermination()
