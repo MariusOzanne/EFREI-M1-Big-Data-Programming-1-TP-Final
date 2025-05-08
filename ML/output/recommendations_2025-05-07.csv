@@ -1,0 +1,11 @@
+id,name,artists,valence,energy,danceability,tempo,min_dist
+4xfezXafYzsy7G4KfXQ9G5,Country Man,['Luke Bryan'],0.858,0.836,0.7390000000000001,120.001,5.588603650810698
+3iwQr7BZxjLbG392OlsH7c,The Road - 2002 Remaster,['Chicago'],0.51,0.513,0.573,117.354,10.392359710904985
+6dSAGShYghwrY21LQ2j3NW,El Borinqueño Ausente,['Ramito'],0.939,0.479,0.6559999999999999,123.903,21.30296558414415
+4WWDS6ZzFXXsfMz1hPEjLU,My Heart Goes Bang (Get Me To The Doctor),['Dead Or Alive'],0.476,0.946,0.5720000000000001,125.984,41.905411965577414
+4XHudYfSIggxAtwhsmXT1O,Deixa Comigo,['Carmen Miranda'],0.963,0.334,0.77,113.839,116.73914407081062
+2PYJnUWEPPP8C6b79UiwIl,Ven Conmigo (Solamente Tú),['Christina Aguilera'],0.962,0.882,0.905,118.95,149.95361244336482
+4OC2oxqFqUFX7haqSC8q5l,Goodbye Red,['Sonny Boy Williamson II'],0.952,0.455,0.722,123.085,151.50610351244362
+65sV4CF3REc4lXiCnAGoVR,Μάνα διώξε τους γιατρούς,['Rita Abatzi'],0.516,0.29600000000000004,0.73,118.309,175.99827627649623
+0XfYIdEFZZr5Sp9gALWT3J,Mera Hal-E-Dil Kaun Pehchanta Hai,['Mohammed Rafi'],0.6559999999999999,0.36,0.4270000000000001,116.409,183.14983247270547
+5TNkFMjJzICS244orqpdF0,"Jackson (with June Carter Cash) - Live at Folsom State Prison, Folsom, CA (2nd Show) - January 1968","['Johnny Cash', 'June Carter Cash']",0.8170000000000001,0.611,0.71,123.373,191.12396478357073

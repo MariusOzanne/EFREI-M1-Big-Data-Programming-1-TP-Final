@@ -1,0 +1,2 @@
+CREATE DATABASE spotify
+    DEFAULT CHARACTER SET = 'utf8mb4';
